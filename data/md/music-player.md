@@ -4,7 +4,7 @@ description: >-
   Xiaohongshu has taken China by storm, and it's quickly gaining popularity
   worldwide. Join the community and experience the power of social commerce.
 date: '2025-01-09T07:23:18.962Z'
-lastModified: '2025-01-13T15:08:29.575Z'
+lastModified: '2025-01-13T15:08:30.729Z'
 ---
 Xiaohongshu, often translated as "Little Red Book," is a popular social media platform in China, particularly among young people. It's more than just a social media platform; it's a vibrant community where users can share their experiences, recommendations, and knowledge on a wide range of topics, from beauty and fashion to travel and food.
 
