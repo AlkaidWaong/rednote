@@ -2,34 +2,32 @@
 import fs from 'fs'
 import path from 'path'
 import { getSortedPostsData } from '@/lib/posts'
-import ResourceList from '@/components/ResourceList'
 import ArticleList from '@/components/ArticleList'
+import { FAQSection } from '@/components/FAQSection'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'GitBase - Open Source Dynamic Website CMS Without Database',
-  description: 'A Next.js site with Tailwind & Shadcn/UI, using GitHub API for content management. No database needed for dynamic updates.',
+  title: 'Xiaohongshu Wiki - Your Ultimate Guide',
+  description: 'Discover everything about Xiaohongshu - from creating engaging content to understanding Chinese social commerce. Your comprehensive guide to success on China\'s leading lifestyle platform.',
 }
 
 export default function Home() {
-  const resourcesPath = path.join(process.cwd(), 'data', 'json', 'resources.json')
-  const resources = JSON.parse(fs.readFileSync(resourcesPath, 'utf8'))
   const allPostsData = getSortedPostsData().slice(0, 6)
 
   return (
     <div className="container mx-auto py-12 space-y-16">
       <section className="text-center space-y-4">
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-          GitBase
+          Xiaohongshu Wiki
         </h1>
-        <h2 className="text-2xl tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl">Open Source Dynamic Website CMS Without Database</h2>
+        <h2 className="text-2xl tracking-tighter sm:text-3xl md:text-3xl lg:text-3xl">Everything you want to know about Xiaohongshus</h2>
         <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-          GitBase is a dynamic, database-free website built with Next.js, Tailwind CSS, and Shadcn/UI, featuring a content management system powered by the GitHub API for seamless updates and administration.
+          Xiaohongshu, often translated as &ldquo;Red Note App,&rdquo; is a popular Chinese social media platform where users can share their experiences, recommendations, and knowledge on a wide range of topics, from beauty and fashion to travel and food. It&apos;s like a combination of Instagram, Pinterest, and a product review site.
         </p>
       </section>
 
-      <ResourceList resources={resources} />
       <ArticleList articles={allPostsData} />
+      <FAQSection />
     </div>
   )
 }
