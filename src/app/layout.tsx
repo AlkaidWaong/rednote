@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'xiaohongshu Wiki',
+    default: 'Rednote App Wiki',
     template: '%s | GitBase'
   },
-  description: 'The ultimate guide to understanding Xiaohongshu, the go-to app for Chinese consumers',
+  description: 'The ultimate guide to understanding Rednote App, the go-to app for Chinese consumers',
 }
 
 interface RootLayoutProps {

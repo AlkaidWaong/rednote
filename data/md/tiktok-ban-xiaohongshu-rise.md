@@ -1,10 +1,10 @@
 ---
-title: "While TikTok Faces Bans, Xiaohongshu Rules Gen-Z China - What Americans Need to Know"
-description: "As TikTok faces scrutiny in the US, discover how Xiaohongshu dominates Chinese youth culture and what it means for global social media trends"
+title: "While TikTok Faces Bans, Rednote Rules Gen-Z China - What Americans Need to Know"
+description: "As TikTok faces scrutiny in the US, discover how Rednote dominates Chinese youth culture and what it means for global social media trends"
 date: "2025-01-13"
 ---
 
-# While TikTok Faces Bans, Xiaohongshu Rules Gen-Z China
+# While TikTok Faces Bans, Rednote Rules Gen-Z China
 
 Hey there! 👋 If you've been following the news, you know TikTok's been having a rough time in the US. But while that drama unfolds, there's something super interesting happening on the other side of the Pacific. Enter Xiaohongshu (小红书) - imagine if Instagram, Pinterest, and Yelp had a baby that became the coolest kid in school. That's basically what Xiaohongshu is in China right now!
 

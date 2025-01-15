@@ -14,15 +14,15 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "What is Xiaohongshu?",
-    answer: "Think of Xiaohongshu (aka 'Red Note App') as China's Instagram meets Pinterest! It's a super popular social app where people share their lifestyle content, product reviews, and cool finds. Whether you're into fashion, beauty, food, or travel - it's the go-to platform for discovering what's trending in China."
+    question: "What is Rednote App?",
+    answer: "Think of  Rednote App(aka 'Xiaohongshu') as China's Instagram meets Pinterest! It's a super popular social app where people share their lifestyle content, product reviews, and cool finds. Whether you're into fashion, beauty, food, or travel - it's the go-to platform for discovering what's trending in China."
   },
   {
     question: "How to boost your post visibility?",
     answer: "Want your posts to get more eyes? Here's the secret sauce: 1) Use trending hashtags that actually make sense; 2) Create original, high-quality content; 3) Post consistently; 4) Engage with your followers' comments; 5) Jump on trending topics; 6) Make your thumbnails pop; 7) Time your posts right (pro tip: try different times to find your sweet spot!)."
   },
   {
-    question: "How to create an account?",
+    question: "How to create an Rednote App account?",
     answer: "Getting started is super easy: 1) Download the app; 2) Hit 'Sign Up'; 3) Choose phone number registration; 4) Enter your digits and verify; 5) Pick a cool username and set your password; 6) Jazz up your profile with a pic and bio; 7) Start following content that interests you. Done and done! 🚀"
   },
   {
